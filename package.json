@@ -1,0 +1,27 @@
+{
+	"name": "cy-bdd",
+	"version": "1.0.0",
+	"description": "framework",
+	"main": "index.js",
+	"scripts": {
+		"cy:open": "cypress open",
+		"cy:run": "cypress run",
+		"cy:run-chrome": "cypress run --browser chrome",
+		"cy:run-firefox": "cypress run --browser firefox",
+		"cy:run-edge": "cypress run --browser edge",
+		"cy:update-snapshots": "cypress run --env updateSnapshots=true",
+		"cy:run-dashboard": "cypress run --record --key ceb27900-7d73-4c0a-9b31-44885584f2fc"
+	},
+	"keywords": [
+		"framework",
+		"cypress",
+		"automation"
+	],
+	"author": "mgharsallah",
+	"license": "ISC",
+	"dependencies": {
+		"cypress": "^4.5.0",
+		"cypress-image-snapshot": "^3.1.1",
+		"prettier": "^2.0.5"
+	}
+}
